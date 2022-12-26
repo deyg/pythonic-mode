@@ -8,12 +8,12 @@ class Cliente:
         else:
             raise Exception("Plano Invalido")
 
-cliente_1 = Cliente("Denilson", "test@test.com", "basic")
-cliente_2 = Cliente("Denilson", "test@test.com", "premium")
-
-print(cliente_1.nome)
-print(cliente_2.nome)
 try:
-    cliente_3 = Cliente("Denilson", "test@test.com", "full hackado")
+    cliente_1 = Cliente("Denilson", "test@test.com", "basic")
+    print(cliente_1.nome)
+    cliente_2 = Cliente("Miausculo", "test@test.com", "premium")
+    print(cliente_2.nome)
+    cliente_3 = Cliente("Pythonman", "test@test.com", "full hackado")
+    print(cliente_3.nome)
 except Exception as e:
     print(e)

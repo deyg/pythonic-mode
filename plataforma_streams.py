@@ -17,4 +17,3 @@ try:
     cliente_3 = Cliente("Denilson", "test@test.com", "full hackado")
 except Exception as e:
     print(e)
-    
